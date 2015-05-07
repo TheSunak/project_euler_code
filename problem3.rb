@@ -12,4 +12,4 @@ PROBLEM
 
 require 'prime'
 
-puts Prime.prime_division(600851475143).to_a.max.first
+puts Prime.prime_division(13195).to_a.uniq
