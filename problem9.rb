@@ -24,4 +24,4 @@ def solve
   end
 end
 
-puts solve.inject(:*)
+puts solve
