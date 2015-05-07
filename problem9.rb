@@ -14,20 +14,10 @@ Find the product abc.
 
 PROBLEM
 
-def pythagorean_triple (a,b,c)
-  if (a**2 + b**2 == c**2)
-    return true
-  else
-    return false
-  end
-end
-
 1.upto(1000) do |c|
   1.upto(c) do |b|
     1.upto(b) do |a|
-      puts a*b*c if (pythagorean_triple(a,b,c)) && (a+b+c==1000)
+      puts a*b*c if (a**2 + b**2 == c**2) && (a+b+c==1000)
     end
   end
 end
-
-

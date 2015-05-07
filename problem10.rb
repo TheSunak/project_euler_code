@@ -12,5 +12,4 @@ PROBLEM
 
 require 'prime'
 
-puts 1.upto(2000000).select {|num| num.prime?}.inject{|sum,x| sum + x} 
-
+puts 1.upto(2000000).select {|num| num.prime?}.inject{|sum,x| sum + x}
