@@ -73,10 +73,6 @@ def product_of_thirteen(array,index)
 
 end
 
-def digits_of_max(array, index)
-
-end
-
 while index < 987
   local_max = product_of_thirteen(num, index)
   
